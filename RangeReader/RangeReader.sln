@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RangeReaderStack", "..\RangeReaderStack\RangeReaderStack.csproj", "{68799864-ACC2-4B5B-A261-A872E822681C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RangeReaderStack", "..\RangeReaderStack\RangeReaderStack.csproj", "{68799864-ACC2-4B5B-A261-A872E822681C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RangeReaderStack.Tests", "..\RangeReaderStack.Tests\RangeReaderStack.Tests.csproj", "{F047C97C-7571-4E96-87E8-88499711D22F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RangeReaderStack.Tests", "..\RangeReaderStack.Tests\RangeReaderStack.Tests.csproj", "{F047C97C-7571-4E96-87E8-88499711D22F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{68799864-ACC2-4B5B-A261-A872E822681C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +41,11 @@ Global
 		{F047C97C-7571-4E96-87E8-88499711D22F}.Release|x64.Build.0 = Release|Any CPU
 		{F047C97C-7571-4E96-87E8-88499711D22F}.Release|x86.ActiveCfg = Release|Any CPU
 		{F047C97C-7571-4E96-87E8-88499711D22F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5C251B4-544A-4F6A-B9CA-1D1263A4B0FD}
 	EndGlobalSection
 EndGlobal
